@@ -8,6 +8,7 @@
   },
   "main": "index.js",
   "scripts": {
+  "start": "node app.js",
     "build": "tsc",
     "build:prod": "tsc && uglifyjs dist/index.js -o dist/index.js && rm dist/types.js"
   },
